@@ -1,0 +1,10 @@
+class UserAlreadyExistsError(Exception): pass
+class UserNotFoundError(Exception): pass
+class TeamAlreadyExistsError(Exception): pass
+class TeamNotFoundError(Exception): pass
+class BoardAlreadyExistsError(Exception): pass
+class BoardNotFoundError(Exception): pass
+class TaskAlreadyExistsError(Exception): pass
+class TaskNotFoundError(Exception): pass
+class ValidationError(Exception): pass
+class OperationNotAllowedError(Exception): pass
